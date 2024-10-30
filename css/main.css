@@ -2,11 +2,10 @@
 
 /* Set custom variables here */
 :root {
-  --custom-variables: #ffffff;
   --bs-primary: #2e483a;
   --bs-primary-rgb: #2e483a; 
   --bs-light: #f6f3ed;
-  --body: #f6f3ed;
+  --bs-body-bg: #f6f3ed;
 }
 
 .navbar{
