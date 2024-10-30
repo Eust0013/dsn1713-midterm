@@ -3,13 +3,23 @@
 /* Set custom variables here */
 :root {
   --custom-variables: #ffffff;
+  --bs-primary: #2e483a;
+  --bs-primary-rgb: #2e483a; 
+  --bs-light: #f6f3ed;
+  --body: #f6f3ed;
 }
 
+.navbar{
+  background-color: var(--bs-primary);
+}
 
-
+.navbar-toggler {
+  padding: none;
+}
 
 .navbar-brand {
   color: #F6F3ED;
+  
 }
 
 body {
