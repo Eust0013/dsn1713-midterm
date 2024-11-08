@@ -2,32 +2,20 @@
 
 /* Set custom variables here */
 :root {
-  --bs-primary: #2e483a;
-  --bs-primary-rgb: #2e483a; 
-  --bs-light: #f6f3ed;
   --bs-body-bg: #f6f3ed;
+  --bs-primary: #2e483a;
+  --bs-primary-rgb:46, 72, 58; 
+  --bs-light: #f6f3ed;
 }
 
-.navbar{
-  background-color: var(--bs-primary);
-}
-
-.navbar-toggler {
-  padding: none;
+.btn {
+  --bs-btn-bg:var(--bs-primary);
+  --bs-btn-border-color:var(--bs-primary)
 }
 
 .navbar-brand {
   color: #F6F3ED;
   
-}
-
-.footer {
-  background-color: var(--bs-primary);
-}
-
-.btn {
-  background-color: #2e483a;
-  border: none;
 }
 
 body {
